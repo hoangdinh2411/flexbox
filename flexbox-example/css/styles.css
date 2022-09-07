@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+section {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.japan-flag {
+  width: 100%;
+  display: flex;
+  padding: 40px 0;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.flag {
+  background-color: #fff;
+  margin: auto;
+  width: 485px;
+  height: 315px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  background-color: #be1a18;
+}
+
+.menu-easy {
+  display: flex;
+}
+
+.menu-easy__items {
+  flex-grow: 1;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
+
+.menu-easy__items.active {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.app-bar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 24px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.menu-medium {
+  display: flex;
+  flex: 1;
+  justify-content: end;
+}
+.menu-medium__items,
+.menu-hard__items {
+  width: 100px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.menu-hard {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.btn--login {
+  width: 120px;
+  height: 30px;
+  border-radius: 4px;
+}
+
+.steps-container {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.steps-container.decrement{
+    flex-direction: row-reverse;
+}
+.steps {
+  height: 80px;
+  color: white;
+  padding-left: 4px;
+  padding-top: 4px;
+}
+
+.step-1 {
+  background-color: #640000;
+  flex-grow: 1;
+}
+.step-2 {
+  background-color: #641400;
+  flex-grow: 1;
+}
+.step-3 {
+  background-color: #642800;
+  flex-grow: 1;
+}
+.step-4 {
+  background-color: #643c00;
+  flex-grow: 2;
+}
+.step-5 {
+  background-color: #634f00;
+  flex-grow: 3;
+}
+.step-6 {
+  background-color: #646400;
+  flex-grow: 5;
+}
+.step-7 {
+  background-color: #647800;
+  flex-grow: 8;
+}
+.step-8 {
+  background-color: #648c00;
+  flex-grow: 13;
+}
+.step-9 {
+  background-color: #64a000;
+  flex-grow: 21;
+}
+.step-10 {
+  background-color: #65b401;
+  flex-grow: 34;
+}
