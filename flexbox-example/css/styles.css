@@ -8,7 +8,9 @@ body {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.05);
 }
-
+a {
+  text-decoration: none;
+}
 section {
   padding-bottom: 40px;
   padding-top: 40px;
@@ -43,16 +45,29 @@ section {
 }
 
 .menu-easy {
-  display: flex;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 0 12px;
+  height: 3rem;
 }
 
+.menu-easy ul{
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-around;
+}
+.menu-easy ul li {
+  display: inline-flex;
+  width: 100%;
+  height: 100%;
+}
 .menu-easy__items {
-  flex-grow: 1;
-  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 40px;
 }
 
 .menu-easy__items.active {
@@ -85,6 +100,7 @@ section {
   width: 100px;
   color: rgba(0, 0, 0, 0.5);
 }
+
 
 .menu-hard {
   display: flex;
@@ -175,7 +191,7 @@ section {
   padding: 16px;
 }
 
-.cards.show{
+.cards.show {
   display: flex;
 }
 
@@ -211,8 +227,6 @@ section {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-
-.dot.show{
+.dot.show {
   background-color: rgba(0, 0, 0, 0.3);
-  
 }
